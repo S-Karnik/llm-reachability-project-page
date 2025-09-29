@@ -35,27 +35,27 @@
     justify-content: center;
     align-items: flex-start; /* Keeps alignment consistent */
     gap: 20px;
-}
+  }
 
-.video-container .video-box {
+  .video-container .video-box {
     flex: 1 1 45%; /* Ensures side-by-side layout */
     max-width: 500px;
     text-align: center;
-}
+  }
 
-.video-box video {
+  .video-box video {
     width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
-}
+  }
 
-.video-box p {
-  width: 80%; /* Makes text match video width */
-  margin: 5px auto; /* Centers text */
-  text-align: center;
-  display: block;
-}
+  .video-box p {
+    width: 80%; /* Makes text match video width */
+    margin: 5px auto; /* Centers text */
+    text-align: center;
+    display: block;
+  }
 </style>
 
 <section class="hero">
@@ -77,15 +77,57 @@
             <span class="author-block">Safe and Intelligent Autonomy Lab, Stanford University</span>
           </div>
 
+          <!-- Publication Links -->
+          <div class="column has-text-centered">
+            <div class="publication-links" style="display: flex; justify-content: center; gap: 20px; align-items: flex-start;">
+
+              <!-- Paper Link -->
+              <div style="text-align: center;">
+                <a href="https://arxiv.org/pdf/2509.21528"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </div>
+
+              <!-- arXiv Link -->
+              <div style="text-align: center;">
+                <a href="https://arxiv.org/abs/2509.21528"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </div>
+
+              <!-- Code Link with "Coming Soon" -->
+              <div style="text-align: center;">
+                <span class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </span>
+                <div style="margin-top: 6px; font-size: 0.85em; color: #777;">
+                  <em>Coming Soon</em>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- /Publication Links -->
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="margin-top: -5rem;">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+    <!-- Abstract -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -96,11 +138,11 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+    <!--/ Abstract -->
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="margin-top: -4rem;">
   <div class="container is-max-desktop">
       <!-- Teaser figure. -->
       <div class="column has-text-centered">
